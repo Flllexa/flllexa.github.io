@@ -56,7 +56,9 @@ const Footer = () => {
             <h4 className="text-sm font-semibold">Social Media</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://github.com/flllexa"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="GitHub"
               >
@@ -70,7 +72,9 @@ const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/persio-flexa/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="LinkedIn"
               >
