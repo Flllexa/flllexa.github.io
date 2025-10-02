@@ -8,33 +8,33 @@ const ProductShowcase = () => {
   const features = [
     {
       icon: Tag,
-      title: "Sistema Multi-Tags",
-      description: "Organize marcadores com múltiplas tags personalizadas, muito além de pastas tradicionais.",
+      title: "Multi-Tag System",
+      description: "Organize bookmarks with multiple custom tags, far beyond traditional folders.",
     },
     {
       icon: Search,
-      title: "Busca Avançada",
-      description: "Encontre qualquer marcador instantaneamente por título, URL ou tag com busca em tempo real.",
+      title: "Advanced Search",
+      description: "Find any bookmark instantly by title, URL or tag with real-time search.",
     },
     {
       icon: Cloud,
-      title: "Sincronização Segura",
-      description: "Backup automático no seu Google Drive pessoal. Seus dados sempre seguros e acessíveis.",
+      title: "Secure Sync",
+      description: "Automatic backup to your personal Google Drive. Your data always safe and accessible.",
     },
     {
       icon: Lock,
       title: "Privacy First",
-      description: "100% open source, sem servidores proprietários. Seus dados ficam com você.",
+      description: "100% open source, no proprietary servers. Your data stays with you.",
     },
     {
       icon: Zap,
-      title: "Performance Otimizada",
-      description: "Lista virtualizada que suporta milhares de marcadores sem perder velocidade.",
+      title: "Optimized Performance",
+      description: "Virtualized list that supports thousands of bookmarks without losing speed.",
     },
     {
       icon: Users,
-      title: "Interface Moderna",
-      description: "Design limpo, responsivo e intuitivo que torna a organização um prazer.",
+      title: "Modern Interface",
+      description: "Clean, responsive and intuitive design that makes organizing a pleasure.",
     },
   ];
 
@@ -45,13 +45,13 @@ const ProductShowcase = () => {
           {/* Section Header */}
           <div className="mb-16 text-center">
             <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-              Nosso Produto Destaque
+              Our Featured Product
             </Badge>
             <h2 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
               ChronoMark
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Gerencie, organize e sincronize seus marcadores do Chrome com inteligência e estilo
+              Manage, organize and sync your Chrome bookmarks with intelligence and style
             </p>
           </div>
 
@@ -70,12 +70,12 @@ const ProductShowcase = () => {
             {/* Product Description */}
             <div className="space-y-6">
               <h3 className="text-3xl font-bold">
-                Reimaginando o gerenciamento de marcadores
+                Reimagining bookmark management
               </h3>
               <p className="text-lg text-muted-foreground">
-                ChronoMark é uma extensão moderna que transforma como você organiza seus marcadores 
-                no Chrome. Com sistema flexível de múltiplas tags e sincronização opcional, você 
-                nunca mais perderá seus sites favoritos.
+                ChronoMark is a modern extension that transforms how you organize your Chrome 
+                bookmarks. With a flexible multi-tag system and optional synchronization, you 
+                will never lose your favorite sites again.
               </p>
 
               <div className="flex flex-wrap gap-3">
@@ -97,7 +97,7 @@ const ProductShowcase = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                    Instalar no Chrome
+                    Install on Chrome
                     <svg className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>

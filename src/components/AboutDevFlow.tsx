@@ -5,18 +5,18 @@ const AboutDevFlow = () => {
   const values = [
     {
       icon: Code2,
-      title: "Excelência Técnica",
-      description: "Desenvolvemos com as melhores práticas e tecnologias modernas, garantindo qualidade e performance.",
+      title: "Technical Excellence",
+      description: "We develop with best practices and modern technologies, ensuring quality and performance.",
     },
     {
       icon: Rocket,
-      title: "Inovação Constante",
-      description: "Sempre buscando novas formas de resolver problemas e melhorar a experiência dos usuários.",
+      title: "Constant Innovation",
+      description: "Always seeking new ways to solve problems and improve user experience.",
     },
     {
       icon: Heart,
       title: "Open Source First",
-      description: "Acreditamos no poder da transparência e da comunidade para criar produtos melhores.",
+      description: "We believe in the power of transparency and community to create better products.",
     },
   ];
 
@@ -27,13 +27,13 @@ const AboutDevFlow = () => {
           {/* Header */}
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
-              Sobre a{" "}
+              About{" "}
               <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
                 DevFlow
               </span>
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Somos uma empresa dedicada a criar soluções digitais que fazem a diferença
+              We are a company dedicated to creating digital solutions that make a difference
             </p>
           </div>
 
@@ -42,23 +42,23 @@ const AboutDevFlow = () => {
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-3xl font-bold">
-                Desenvolvendo o futuro, uma linha de código por vez
+                Building the future, one line of code at a time
               </h3>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  A DevFlow nasceu da paixão por criar produtos que realmente importam. 
-                  Acreditamos que a tecnologia deve ser acessível, segura e que respeita 
-                  a privacidade dos usuários.
+                  DevFlow was born from a passion for creating products that truly matter. 
+                  We believe that technology should be accessible, secure, and respect 
+                  user privacy.
                 </p>
                 <p>
-                  Cada produto que desenvolvemos é pensado para resolver problemas reais, 
-                  com foco em usabilidade, performance e design. Nosso compromisso é com 
-                  a qualidade e a transparência.
+                  Every product we develop is designed to solve real problems, 
+                  with a focus on usability, performance, and design. Our commitment is to 
+                  quality and transparency.
                 </p>
                 <p>
-                  Como empresa que valoriza o open source, compartilhamos nosso código 
-                  e conhecimento com a comunidade, contribuindo para um ecossistema mais 
-                  forte e colaborativo.
+                  As a company that values open source, we share our code 
+                  and knowledge with the community, contributing to a stronger 
+                  and more collaborative ecosystem.
                 </p>
               </div>
             </div>
@@ -88,16 +88,16 @@ const AboutDevFlow = () => {
           <div className="mt-16 rounded-2xl bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 p-8 sm:p-12">
             <div className="grid gap-8 sm:grid-cols-3">
               <div className="text-center">
-                <div className="mb-2 text-4xl font-bold text-primary">Qualidade</div>
-                <div className="text-muted-foreground">Em cada detalhe</div>
+                <div className="mb-2 text-4xl font-bold text-primary">Quality</div>
+                <div className="text-muted-foreground">In every detail</div>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-4xl font-bold text-primary">Transparência</div>
-                <div className="text-muted-foreground">Em tudo que fazemos</div>
+                <div className="mb-2 text-4xl font-bold text-primary">Transparency</div>
+                <div className="text-muted-foreground">In everything we do</div>
               </div>
               <div className="text-center">
-                <div className="mb-2 text-4xl font-bold text-primary">Comunidade</div>
-                <div className="text-muted-foreground">No centro das decisões</div>
+                <div className="mb-2 text-4xl font-bold text-primary">Community</div>
+                <div className="text-muted-foreground">At the center of decisions</div>
               </div>
             </div>
           </div>

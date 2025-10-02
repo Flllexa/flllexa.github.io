@@ -13,13 +13,13 @@ const Footer = () => {
               DevFlow
             </h3>
             <p className="text-sm text-muted-foreground">
-              Desenvolvendo soluções digitais inovadoras com excelência e transparência.
+              Developing innovative digital solutions with excellence and transparency.
             </p>
           </div>
 
           {/* Products */}
           <div className="space-y-4">
-            <h4 className="text-sm font-semibold">Produtos</h4>
+            <h4 className="text-sm font-semibold">Products</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a 
@@ -36,16 +36,16 @@ const Footer = () => {
 
           {/* Company */}
           <div className="space-y-4">
-            <h4 className="text-sm font-semibold">Empresa</h4>
+            <h4 className="text-sm font-semibold">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
-                  Sobre Nós
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary transition-colors">
-                  Contato
+                  Contact
                 </a>
               </li>
             </ul>
@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Social */}
           <div className="space-y-4">
-            <h4 className="text-sm font-semibold">Redes Sociais</h4>
+            <h4 className="text-sm font-semibold">Social Media</h4>
             <div className="flex gap-4">
               <a
                 href="#"
@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} DevFlow. Todos os direitos reservados.</p>
+          <p>© {currentYear} DevFlow. All rights reserved.</p>
         </div>
       </div>
     </footer>

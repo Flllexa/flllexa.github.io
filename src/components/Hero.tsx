@@ -26,31 +26,31 @@ const Hero = () => {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary"></span>
             </span>
-            Desenvolvendo o futuro da web
+            Building the future of the web
           </div>
 
           {/* Main heading */}
           <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-100">
-            Transforme suas ideias em{" "}
+            Transform your ideas into{" "}
             <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              soluções digitais
+              digital solutions
             </span>
           </h1>
 
           {/* Description */}
           <p className="mb-10 text-lg text-muted-foreground sm:text-xl lg:text-2xl max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
-            Na DevFlow, criamos produtos inovadores que simplificam sua vida digital. 
-            Conheça nossas soluções desenvolvidas com excelência técnica e design moderno.
+            At DevFlow, we create innovative products that simplify your digital life. 
+            Discover our solutions built with technical excellence and modern design.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-300">
             <Button variant="hero" size="xl" className="group">
-              Conheça nossos produtos
+              Explore our products
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
             <Button variant="outline" size="xl">
-              Sobre a DevFlow
+              About DevFlow
             </Button>
           </div>
 
@@ -62,11 +62,11 @@ const Hero = () => {
             </div>
             <div className="rounded-lg bg-card/50 p-6 backdrop-blur-sm border border-border/50">
               <div className="text-3xl font-bold text-primary">5★</div>
-              <div className="mt-2 text-sm text-muted-foreground">Avaliação</div>
+              <div className="mt-2 text-sm text-muted-foreground">Rating</div>
             </div>
             <div className="rounded-lg bg-card/50 p-6 backdrop-blur-sm border border-border/50 col-span-2 sm:col-span-1">
               <div className="text-3xl font-bold text-primary">Privacy First</div>
-              <div className="mt-2 text-sm text-muted-foreground">Seus dados são seus</div>
+              <div className="mt-2 text-sm text-muted-foreground">Your data is yours</div>
             </div>
           </div>
         </div>
