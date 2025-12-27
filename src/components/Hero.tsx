@@ -3,11 +3,6 @@ import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
-  const handleScrollTo = (sectionId: string) => () => {
-    const target = document.getElementById(sectionId);
-    target?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image with gradient overlay */}
@@ -50,23 +45,14 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row animate-in fade-in slide-in-from-bottom-10 duration-1000 delay-300">
-            <Button
-              type="button"
-              variant="hero"
-              size="xl"
-              className="group"
-              onClick={handleScrollTo("our-featured-product")}
-            >
-              Our Featured Product
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+            <Button variant="hero" size="xl" className="group" asChild>
+              <a href="#our-featured-product">
+                Our Featured Product
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
-            <Button
-              type="button"
-              variant="outline"
-              size="xl"
-              onClick={handleScrollTo("about-devflow")}
-            >
-              About DevFlow
+            <Button variant="outline" size="xl" asChild>
+              <a href="#about-devflow">About DevFlow</a>
             </Button>
           </div>
 

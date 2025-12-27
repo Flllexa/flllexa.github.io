@@ -4,7 +4,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border/50 bg-muted/30 backdrop-blur-sm">
+    <footer
+      id="contact"
+      className="border-t border-border/50 bg-muted/30 backdrop-blur-sm"
+    >
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
@@ -39,12 +42,12 @@ const Footer = () => {
             <h4 className="text-sm font-semibold">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#about-devflow" className="hover:text-primary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <a href="#contact" className="hover:text-primary transition-colors">
                   Contact
                 </a>
               </li>
@@ -65,7 +68,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
                 aria-label="Twitter"
               >
