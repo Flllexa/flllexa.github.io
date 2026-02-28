@@ -20,6 +20,19 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
+          <div className="mb-6 flex justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000">
+            <div className="inline-flex items-center gap-3 rounded-full border border-border/60 bg-background/60 px-4 py-2 backdrop-blur-md">
+              <img
+                src="/devflowinc-logo-mark.svg"
+                alt="DevFlowInc logo"
+                className="h-8 w-8 sm:h-9 sm:w-9"
+              />
+              <span className="text-lg font-semibold tracking-tight text-foreground sm:text-xl">
+                DevFlowInc
+              </span>
+            </div>
+          </div>
+
           {/* Badge */}
           <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <span className="relative flex h-2 w-2">
@@ -39,7 +52,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="mb-10 text-lg text-muted-foreground sm:text-xl lg:text-2xl max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
-            At DevFlow, we create innovative products that simplify your digital life. 
+            At DevFlowInc, we create innovative products that simplify your digital life.
             Discover our solutions built with technical excellence and modern design.
           </p>
 
@@ -52,7 +65,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="outline" size="xl" asChild>
-              <a href="#about-devflow">About DevFlow</a>
+              <a href="#about-devflow">About DevFlowInc</a>
             </Button>
           </div>
 

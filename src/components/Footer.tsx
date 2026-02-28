@@ -12,9 +12,12 @@ const Footer = () => {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              DevFlow
-            </h3>
+            <img
+              src="/devflowinc-logo.svg"
+              alt="DevFlowInc logo"
+              className="h-10 w-auto"
+              loading="lazy"
+            />
             <p className="text-sm text-muted-foreground">
               Developing innovative digital solutions with excellence and transparency.
             </p>
@@ -89,7 +92,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} DevFlow. All rights reserved.</p>
+          <p>© {currentYear} DevFlowInc. All rights reserved.</p>
         </div>
       </div>
     </footer>
