@@ -18,5 +18,12 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: "docs",
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+        privacyPolicy: path.resolve(__dirname, "privacy-policy.html"),
+        terms: path.resolve(__dirname, "terms.html"),
+      },
+    },
   },
 }));

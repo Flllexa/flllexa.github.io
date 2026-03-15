@@ -45,12 +45,12 @@ const Footer = () => {
             <h4 className="text-sm font-semibold">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#about-devflow" className="hover:text-primary transition-colors">
+                <a href="/#about-devflow" className="hover:text-primary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-primary transition-colors">
+                <a href="/#contact" className="hover:text-primary transition-colors">
                   Contact
                 </a>
               </li>
